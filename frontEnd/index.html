@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS</title>
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Start Header  -->
+    <div class="header">
+        
+        <div class="container">
+            <div class="logo">
+                <div class="showblur"></div>
+                <img src="image/logo.png" alt="">
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#galerie">Galerie</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#avis">Avis</a></li>
+                </ul>
+            </div>
+            <dic class="contact">
+                
+                <ul>
+                    
+                    <li ><a href="" id="phone"><i class="fa-solid fa-phone" ></i></a></li>
+                    <li><a href="mailto:hotel@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                    <li class="login"><a href="interface/login.html"><span>Log In</span></a></li>
+                    
+                </ul>
+                <div class="phone">
+                    <ul>
+                        <li>+216 71 00 12 98</li>
+                        <li>+216 71 00 12 98</li>
+                        
+                    </ul>
+                </div>
+                <script>
+                    document.getElementById("phone").onclick= function(even){
+                        even.preventDefault();
+                        let p =document.querySelector(".phone");
+                        if(window.getComputedStyle(p).display=="none")
+                            p.style.display="block";
+                        else
+                            p.style.display="none";    
+                    }
+                </script>
+            </dic>
+        </div>
+    </div>
+    <!-- End Header  -->
+    <!-- Start landing -->
+    <div class="landing" id="accueil">
+        <div class="container">
+            <p>L'hôtel de vos rêves au meilleur prix.</p>
+        </div>
+    </div>
+    <!-- End landing  -->
+    <!-- Start galerie  -->
+    <div class="galerie" id="galerie">
+        <h1>GALERIE</h1>
+        <div class="cards">
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+            <div class="card">
+                <img src="image/imgcard.jpg" alt="">
+                <p>titre</p>
+            </div>
+        </div>
+    </div>
+    <!-- End galerie   -->
+    <!-- Start Service  -->
+    <div class="services" id="services">
+        <h1>SERVICE</h1>
+        <div class="content">
+            <div class="srv">
+                <i class="fa-solid fa-utensils"></i>
+                <div class="text">
+                    <h3>titre de service</h3>
+                    <p>
+                    paragrathe paragrathe paragrathe paragrathe paragrathe
+                     paragrathe paragrathe paragrathe paragrathe paragrathe 
+                     paragrathe paragrathe paragrathe paragrathe paragrathe 
+                    </p>
+                </div>
+            </div>
+            <div class="srv">
+                <i class="fa-solid fa-mug-saucer"></i>
+                <div class="text">
+                    <h3>titre de service</h3>
+                    <p>
+                    paragrathe paragrathe paragrathe paragrathe paragrathe
+                     paragrathe paragrathe paragrathe paragrathe paragrathe 
+                     paragrathe paragrathe paragrathe paragrathe paragrathe 
+                    </p>
+                </div>
+            </div>
+            <div class="srv">
+                <i class="fa-solid fa-martini-glass"></i>
+                <div class="text">
+                    <h3>titre de service</h3>
+                    <p>
+                    paragrathe paragrathe paragrathe paragrathe paragrathe
+                     paragrathe paragrathe paragrathe paragrathe paragrathe 
+                     paragrathe paragrathe paragrathe paragrathe paragrathe 
+                    </p>
+                </div>
+            </div>
+            <div class="srv">
+                <i class="fa-solid fa-umbrella-beach"></i>
+                <div class="text">
+                    <h3>titre de service</h3>
+                    <p>
+                    paragrathe paragrathe paragrathe paragrathe paragrathe
+                     paragrathe paragrathe paragrathe paragrathe paragrathe 
+                     paragrathe paragrathe paragrathe paragrathe paragrathe 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End service  -->
+    <!-- Start footer  -->
+    <div class="footer">
+        <div class="container">
+            <div class="links">
+                <ul>
+                    <li><a href="">bla bla</a></li>
+                    <li><a href="">bla bla</a></li>
+                    <li><a href="">bla bla</a></li>
+                    <li><a href="">bla bla</a></li>
+                    <li><a href="">bla bla</a></li>
+                    <li><a href="">bla bla</a></li>
+                    <li><a href="">bla bla</a></li>
+                    <li><a href="">bla bla</a></li>
+                    <li><a href="">bla bla</a></li>
+                    <li><a href="">bla bla</a></li>
+                    <li><a href="">bla bla</a></li>
+                    <li><a href="">bla bla</a></li>
+                </ul>
+            </div>
+            <p> Copyright © Vamoos &nbsp; &nbsp;   Privacy Policy | Sitemap</p>
+        </div>
+    </div>
+    <!-- End footer  -->
+    
+  </body>
+</html>
+

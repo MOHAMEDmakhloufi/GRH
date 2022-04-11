@@ -1,0 +1,169 @@
+
+/* Start historique */
+.historique{
+    display: none;
+    position: relative;
+}
+.section .container .historique button{
+    margin: 50px 0 20px 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-width: 0;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+
+}
+ .cards {
+ display: flex;   
+ flex-direction: column;
+}
+
+ .card{
+    position: relative;
+    
+    border :#00000030 solid 1.5px;
+    color: black;
+    height: 80px;
+    border: #00000030 solid 1px;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: 0.5s;
+          
+    transition-property: all;
+}
+.card:hover{
+    background-color: #ff7c4680;
+}
+.cards .card-true{
+    box-shadow: 0px 3px 10px 1px #656362;
+    transform: scale(1.02);
+    background-color: #ff7c4680;
+
+  }
+  .historique input, .reservation input{
+      position: absolute;
+    width: 200px;
+    height: 30px;
+    border-color: var(--mainColor);
+    border-width: 1px;
+    border-radius: 10px;
+    caret-color: var(--mainColor);
+    padding: 10px;
+    right: 0;
+    top: 50px;
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+.historique input:focus-visible, .reservation input:focus-visible{
+    box-shadow: 0px 3px 10px 1px var(--main-color);
+    outline-width: 0;
+}
+/* End historique  */
+
+/* Start moncompte  */
+.section  .moncompte{
+    display: none;
+    width: 55%;
+    margin-bottom: 50px;
+}
+.section .moncompte button:nth-child(1){
+    background-color: #ff0000;
+    margin: 50px auto 20px;
+    
+}
+.section .moncompte button:nth-child(2), .section .moncompte button:nth-last-child(2){
+    background-color: green;
+    margin: 20px auto;
+}
+.section .moncompte button:nth-child(1), .section .moncompte button:nth-child(2), .section .moncompte button:nth-last-child(2){
+    width: 300px;
+    opacity: 0.5;
+    padding: 20px;
+    
+    border-width: 0;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    transition-duration: 0.25s;
+    
+transition-property: all;
+
+}
+
+.section .moncompte button:hover{
+    opacity: 1 !important;
+}
+.section .moncompte form{
+    display: none;
+}
+.section .moncompte form input{
+  width: 350px;
+  height: 50px;
+  padding-left: 25px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid #00000070;
+  background-color: white;
+}
+
+.section .moncompte form input:focus{
+  
+  outline-width: 0;
+  border-color: #ff7c46;
+  border-width: 2px;
+  box-shadow: 2px 7px 14px 0px #ff7c4654;
+
+}
+.section .moncompte form input:-webkit-autofill, input:-webkit-autofill:active, input:-webkit-autofill:focus, input:-webkit-autofill:hover {
+-webkit-transition: background-color 5000s ease-in-out 0s;
+transition: background-color 5000s ease-in-out 0s;
+}
+.section .moncompte form .box-input{
+position: relative;
+margin-bottom: 50px;
+}
+.section .moncompte form .placeholder{
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  transform: translateY(-50%);
+  font-size: 22px;
+  color: #00000070;
+  background-color: white;
+  padding: 5px;
+  border-radius: 100px ;
+  transition-duration: 0.25s;
+    
+transition-property: all;
+}
+
+.section .moncompte form input:focus + .placeholder, .isNotEmpty{
+  color: #ff7c46;
+  top: 0;
+  left: 15px;
+  font-size: 12px;
+}
+.content .section .moncompte form button {
+  width: 350px;
+  padding: 15px;
+  border-radius: 10px;
+  border-width: 0;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(150, 142, 142);
+  cursor: pointer;
+  
+}
+.content .section .moncompte form button:hover{
+  background-color: var(--main-color);
+}
+/* End moncompte  */
+  /* End section  */
+  /* End content  */

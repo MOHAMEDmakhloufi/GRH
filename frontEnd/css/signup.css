@@ -1,0 +1,23 @@
+.one .container i{
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    background-color: rgb(150, 142, 142);
+    border-radius: 100%;
+}
+
+.one .container .hbox{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.one .container hr{
+    width: 50px;
+    margin: 5px;
+}
+
+.one .container form[name='f2']{
+    display: none;
+}
